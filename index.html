@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>STAR WARS RPG!</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="characters">
+                <img class="hero" id="obi-wan kenobi" src="assets/images/obi-wan-kenobi.png" alt="Obi-Wan Kenobi">
+                <div class="name">Obi-Wan-Kenobi</div>
+                <div class="hp">120</div>
+            </div>
+
+            <div class="characters">
+                <img class="hero" id="luke skywalker" src="assets/images/luke-skywalker.png" alt="Luke Skywalker">
+                <div class="name">Luke Skywalker</div>
+                <div class="hp">100</div>
+            </div>
+
+            <div class="characters">
+                <img class="hero" id="yoda" src="assets/images/yoda-png.jpg" alt="Yoda">
+                <div class="name">Yoda</div>
+                <div class="hp">150</div>
+            </div>
+
+            <div class="characters">
+                <img class="hero" id="darth sidious" src="assets/images/darth-sidious.png" alt="Darth Sidious">
+                <div class="name">Darth Sidious</div>
+                <div class="hp">180</div>
+            </div>
+        </section>
+
+        <section class="clear">
+            <p>Your Character</p>
+            <div class="characters">
+                <img id="mainCharacter">
+            </div>
+        </section>
+
+        <section class="clear">
+            <p>Enemies Available To Attack</p>
+            <div class="characters">
+                <img id="evilCharacter">
+            </div>
+        </section>
+
+        <section class="clear">
+            <p>Fight Section</p>
+            <button>Attack</button>
+            <p>Defender</p>
+            <div class="characters">
+                <img id="defender">
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

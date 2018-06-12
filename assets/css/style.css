@@ -51,8 +51,8 @@ h1 {
     visibility: hidden;
 }
 
-#evilCharacter {
-    display: none;
+.evil img {
+    border: 30px solid red;
 }
 
 .clear {
